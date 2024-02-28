@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aula08"
+version = "0.1.0"
+description = "Projecto de ETL básico"
+authors = ["Etiane Marcelino <etianezaumarcelino@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.1"
+pyarrow = "^15.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
